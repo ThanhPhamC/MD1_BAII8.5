@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr=prompt("nhập các số nguyên ").trim().split(" ");
+  let daydem=[]
+  for (i=0;i<arr.length;i++){
+    if (arr[i]<0){
+      daydem.push(arr[i])
+    }
+  }
+  document.write('dãy số nhập là :'+arr+"<br>")
+  document.write('dãy số âm là :'+daydem)
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 id="hienthi"></h2>
+<script>
+    let daysoArr=[1,2,3,12,5,6,7,8,9,11];
+    let lonHon10=[]
+    for (let i = 0; i <daysoArr.length ; i++) {
+        if (daysoArr[i]>10){
+            lonHon10.push(daysoArr[i])
+        }else { "khong ton tai"}
+    }document.getElementById('hienthi').innerHTML="có "+lonHon10.length+" số lớn hơn 10 là: "+ lonHon10
+
+</script>
+</body>
+</html>

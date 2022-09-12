@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="ketQua"></p>
+<script !src="">
+  let array=prompt("nhập dãy số nguyên ").trim().split(" ");
+  let x= prompt("nhập số V ")
+  for (let i = 0; i <array.length ; i++) {
+    if (x==array[i]){
+      array.splice(i,1)
+      document.getElementById('ketQua').innerHTML="Bảng sau khi xoá "+x+" là "+"("+array+")"
+      break;
+    }else {
+      document.getElementById('ketQua').innerHTML=x+ " is  not in the array "+"("+array+")"
+    }
+  }
+</script>
+</body>
+</html>

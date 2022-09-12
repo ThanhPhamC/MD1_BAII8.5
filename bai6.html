@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="ketQua"></p>
+<script >
+  let array=prompt("nhập 10 số nguyên ").trim().split(" ");
+  let x= prompt("nhập số V ")
+  for (let i = 0; i <array.length ; i++) {
+    if (x===array[i]){
+      document.getElementById('ketQua').innerHTML= x+ " is in the array "+"("+array+")"
+      break;
+    }else {
+      document.getElementById('ketQua').innerHTML=x+ " is  not in the array "+"("+array+")"
+    }
+  }
+</script>
+</body>
+</html>
